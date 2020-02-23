@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-client-build": "webpack --config client/webpack.dev.config.js",
-    "dev-client-run": "webpack-dev-server --config client/webpack.dev.config.js"
+    "dev-client-run": "webpack-dev-server --config client/webpack.dev.config.js",
+    "dev-client-eslint": "eslint client/src"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,8 @@
     "@babel/preset-react": "^7.8.3",
     "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.3",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
